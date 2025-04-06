@@ -1,8 +1,8 @@
 #operadores in e not in
 
-nome = 'Joao'
+nome = 'Joao Pedro'
 
-print('a' in nome) #verifica se a letra 'a' esta no nome
+print('' in nome) #verifica se a letra 'a' esta no nome
 print('Jo' in nome)
 print(10* '-') 
 print('Pe' not in nome)
