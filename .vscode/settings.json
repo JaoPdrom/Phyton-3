@@ -1,0 +1,51 @@
+{
+    "editor.fontSize": 17,
+    "scm.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        
+       
+        "python": "cls ; python -u",
+        
+    },
+
+    "code-runner.ignoreSelection": true,
+
+
+    "workbench.editor.empty.hint": "hidden",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Local instance MySQL80",
+            "database": "mybd",
+            "username": "root"
+        }
+    ],
+    "lldb.suppressUpdateNotifications": true,
+    "remote.SSH.remotePlatform": {
+        "192.168.32.41": "linux"
+    },
+    "workbench.startupEditor": "none",
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/mingw64/bin",
+        "C:/msys64/clang32/bin",
+        "C:/msys64/clang64/bin",
+        "C:/msys64/clangarm64/bin",
+        "C:/msys64/ucrt64/bin"
+    ],
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "python",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true
+}
